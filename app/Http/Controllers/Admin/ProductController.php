@@ -18,7 +18,7 @@ use App\Models\Product;
 use App\Models\Category;
 use App\Models\Attribute;
 use App\Models\ProductImage;
-// use App\Models\ProductInventory;
+use App\Models\ProductInventory;
 use App\Models\ProductAttributeValue;
 use App\Models\AttributeOption;
 use App\Models\Brand;
@@ -285,9 +285,9 @@ class ProductController extends Controller
 				if ($product->type == 'configurable') {
 					$this->_updateProductVariants($params);
 				} 
-                // else {
-				// 	ProductInventory::updateOrCreate(['product_id' => $product->id], ['qty' => $params['qty']]);
-				// }
+                else {
+					ProductInventory::updateOrCreate(['product_id' => $product->id], ['qty' => $params['qty']]);
+				}
 
 				return true;
 			}
