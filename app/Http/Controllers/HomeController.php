@@ -37,6 +37,6 @@ class HomeController extends Controller
 
         $this->data['words'] = 'lorem ipsum dolor sit amet';
 
-        return view('welcome', $this->data);
+        return view('home', $this->data);
     }
 }
