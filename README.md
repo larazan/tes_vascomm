@@ -9,8 +9,8 @@
 
 ## Screenshots
 <div>
-<img width="250" src="https://github.com/larazan/tes_vascomm/blob/main/storage/app/public/screenshot/img1.jpg"> </img>
-<img width="250" src="https://github.com/larazan/tes_vascomm/blob/main/storage/app/public/screenshot/img2.jpg"> </img>
+<img width="250" src="https://github.com/larazan/tes_vascomm/blob/main/screenshot/img1.jpg"> </img>
+<img width="250" src="https://github.com/larazan/tes_vascomm/blob/main/screenshot/img2.jpg"> </img>
   
 </div>
 
